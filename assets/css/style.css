@@ -1137,7 +1137,7 @@ section {
   font-size: 14px;
 }
 
-.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+.contact .php-email-form input:focus, .contact .php-email-form textarea::focus {
   background-color: #fdc134;
 }
 
@@ -1333,6 +1333,6 @@ section {
   #footer .copyright, #footer .credits {
     padding: 5px;
     float: none;
-    text-align: ceneter;
+    text-align: center;
   }
 }
