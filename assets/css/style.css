@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-#accueil h1 {
+#accueil h2 {
   margin: 0 0 15px 0;
   font-size: 48px;
   font-weight: 700;
@@ -320,7 +320,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#accueil h2 {
+#accueil h3 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 22px;
@@ -1195,6 +1195,29 @@ section {
   bottom: 0;
   background: rgba(26, 46, 64, 0.85);
   z-index: 1;
+}
+
+#footer .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-links p i {
+  padding-right: 2px;
+  color: #00c28e;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-links p a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-links a:hover {
+  text-decoration: none;
+  color: #ffbd59;
 }
 
 #footer .footer-top {
