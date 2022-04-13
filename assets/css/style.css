@@ -389,7 +389,7 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
+.section-title h3 {
   font-size: 32px;
   font-weight: 600;
   text-transform: uppercase;
@@ -400,7 +400,7 @@ section {
   color: #213b52;
 }
 
-.section-title h2::before {
+.section-title h3::before {
   content: '';
   position: absolute;
   display: block;
@@ -411,7 +411,7 @@ section {
   left: calc(50% - 60px);
 }
 
-.section-title h2::after {
+.section-title h3::after {
   content: '';
   position: absolute;
   display: block;
