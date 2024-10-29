@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #accueil {
-  background: url("../img/couv3.jpg") center center no-repeat;
+  background: url("../img/couv3.jpg") center center;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -655,7 +655,7 @@ section {
 }
 
 .galerie .galerie-item {
-  margin-bottom: 30px;
+  margin-top: auto;
 }
 
 .galerie #galerie-filters {
@@ -692,6 +692,11 @@ section {
   overflow: hidden;
   border-radius: 8px;
   z-index: 1;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
 }
 
 .galerie .galerie-wrap::before {
@@ -1180,7 +1185,7 @@ section {
 }
 
 #footer {
-  background: url("../img/couv3.jpg") center center no-repeat;
+  background: url("../img/couv3.jpg") center center;
   color: #fff;
   font-size: 14px;
   position: relative;
